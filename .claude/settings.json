@@ -1,0 +1,18 @@
+{
+  "autoLoad": [
+    ".claude/CLAUDE.md",
+    ".claude/SKILLS.md",
+    ".claude/context/glossary.md"
+  ],
+  "preferences": {
+    "verbosity": "normal",
+    "autoApprove": false,
+    "diffMode": "unified"
+  },
+  "context": {
+    "maxTokens": 8000,
+    "prioritize": [
+      "CLAUDE.md"
+    ]
+  }
+}

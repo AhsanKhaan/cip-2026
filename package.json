@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "doctor": "bash check-setup.sh"
   },
   "dependencies": {
     "next": "16.2.4",
