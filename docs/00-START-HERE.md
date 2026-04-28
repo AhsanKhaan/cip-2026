@@ -2,7 +2,7 @@
 ## Master Index + Beginner Setup Guide (Read This First)
 
 **Last updated:** April 23, 2026
-**Total files:** 29 documents + 1 interactive diagram
+**Total files:** 30 documents + 1 interactive diagram
 **For:** Solo founder, beginner technical level
 **Project:** Commodity Intelligence Platform (gold, silver, copper, crypto, forex)
 
@@ -41,6 +41,7 @@
 | 26 | `26-DISASTER-RECOVERY-PLAN.md` | DR plan + Cloudflare Workers decision | **Day 0 + Sprint 1** |
 | 27 | `27-AUTOMATED-BACKUPS-NETWORK-SECURITY.md` | Weekly snapshots, 15-day MongoDB backup, network security | **Day 0 + Sprint 1** |
 | 28 | `28-BEGINNER-DAY-ZERO-COMPLETE.md` | **MEGA Day 0 guide — read first** | **Day 0 — START HERE** |
+| 29 | `29-MOCK-DATA-SYSTEM.md` | Mock data layer to preserve paid API quota | **Sprint 1 — CRITICAL** |
 | — | `CIP-DATA-FLOW-DIAGRAM.html` | Visual architecture overview (open in browser) | Day 0 |
 
 > **Note:** Docs 19 does not exist. Numbering preserves gaps so you can insert future docs without renumbering.
