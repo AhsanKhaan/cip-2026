@@ -87,3 +87,21 @@ See /docs/ folder for full specs:
 - CMS System: 14-CMS-SYSTEM.md
 - MFA Auth: 15-MFA-AUTHENTICATION.md
 - Logging: 11-LOGGING-OBSERVABILITY.md
+
+
+### Local Development Rules
+
+ALWAYS:
+- Run docker-compose.dev.yml for Redis (mirrors Hetzner Local Redis)
+- Use PRICE_DATA_MODE=mock by default in dev
+- Use a SEPARATE Atlas dev cluster (NEVER share with production)
+- Use a SEPARATE Upstash dev database
+- Use Clerk DEVELOPMENT instance keys (pk_test_*, sk_test_*)
+- Worker should hot-reload via tsx watch in dev
+
+NEVER:
+- Connect to production MongoDB Atlas from local dev
+- Use production Upstash Redis token in local dev
+- Use Clerk production keys in local development
+- Run live mode (PRICE_DATA_MODE=live) for routine dev work
+- Commit .env.local files to Git
